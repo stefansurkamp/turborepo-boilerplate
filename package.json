@@ -13,6 +13,6 @@
     "prettier": "^2.5.1",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@8.6.10",
+  "packageManager": "pnpm@9.1.1",
   "name": "react-tailwind-vite"
 }
