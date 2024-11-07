@@ -1,11 +1,14 @@
 {
-  "name": "vite",
+  "name": "@rms/ui-workspace",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "exports": {
+    "./button": "./dist/ui/Button.tsx"
+  },
   "scripts": {
-    "dev": "vite",
-    "build": "cp -R src/ui/* ../../packages/ui/src"
+    "dev": "vite --clearScreen false",
+    "build": "tsc && vite build"
   },
   "dependencies": {
     "autoprefixer": "^10.4.14",
