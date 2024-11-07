@@ -1,10 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Button } from "ui";
+// import { card } from "@rms/ui";
 import "./tw.css";
+import "@rms/ui/styles.css";
+import { Card } from "@rms/ui/card";
+import { Button } from "@rms/ui/button";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <Button>Servus</Button>
+    {/* client vite <Button /> */}main file
+    <Card title="it works!" href="#">
+      This is a card - wild!
+    </Card>
+    <Button>I'm a button</Button>
   </React.StrictMode>
 );
