@@ -12,6 +12,6 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <Card title="it works!" href="#">
       This is a card - wild!
     </Card>
-    <Button />
+    <Button>I'm a button</Button>
   </React.StrictMode>
 );
