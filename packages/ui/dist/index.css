@@ -578,14 +578,6 @@ video {
   max-width: 30ch;
 }
 
-.max-w-lg {
-  max-width: 32rem;
-}
-
-.max-w-2xl {
-  max-width: 42rem;
-}
-
 .max-w-screen-2xl {
   max-width: 1536px;
 }
