@@ -149,15 +149,6 @@ importers:
         specifier: ^5.4.10
         version: 5.4.10(@types/node@17.0.45)
 
-  packages/config-tailwind:
-    devDependencies:
-      '@rms/typescript-config':
-        specifier: workspace:*
-        version: link:../typescript
-      tailwindcss:
-        specifier: ^3.4.1
-        version: 3.4.14(ts-node@10.9.1(@types/node@17.0.45)(typescript@5.6.3))
-
   packages/eslint:
     devDependencies:
       '@vercel/style-guide':
@@ -166,6 +157,15 @@ importers:
       eslint-config-turbo:
         specifier: ^2.0.0
         version: 2.2.3(eslint@9.14.0(jiti@1.21.6))
+
+  packages/tailwind:
+    devDependencies:
+      '@rms/typescript-config':
+        specifier: workspace:*
+        version: link:../typescript
+      tailwindcss:
+        specifier: ^3.4.1
+        version: 3.4.14(ts-node@10.9.1(@types/node@17.0.45)(typescript@5.6.3))
 
   packages/typescript: {}
 
@@ -177,7 +177,7 @@ importers:
     devDependencies:
       '@repo/tailwind-config':
         specifier: workspace:*
-        version: link:../config-tailwind
+        version: link:../tailwind
       '@rms/eslint-config':
         specifier: workspace:*
         version: link:../eslint
